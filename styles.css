@@ -1,0 +1,77 @@
+body {
+  background-color: lightgray;
+}
+
+.container {
+  max-width: 600px;
+  margin-top: 120px !important;
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+  display: flex;
+  box-sizing: border-box;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  height: 175x;
+  padding: 15px 20px;
+  margin: 20px;
+}
+
+.sporty {
+  background: #fff url(./images/sporty.png) no-repeat center right / 200px;
+}
+
+.casual {
+  background: #fff url(./images/casual.png) no-repeat center right / 200px;
+}
+
+.formal {
+  background: #fff url(./images/formal.png) no-repeat center right / 200px;
+}
+
+h2 {
+  margin-top: 0px;
+  font-size: 27px;
+}
+
+.title-red {
+  color: #e04553;
+}
+
+.title-blue {
+  color: #0d4baf;
+}
+
+.title-brown {
+  color: #512b22;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333333;
+}
+
+button {
+  color: white;
+  font-size: 18px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-red {
+  background-color: #e04553;
+}
+
+.btn-blue {
+  background-color: #0d4ba3;
+}
+
+.btn-brown {
+  background-color: #512b22;
+}
